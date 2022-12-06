@@ -1,12 +1,31 @@
 
 body{
-    color:#434445 ;
+    color:rgba(67, 68, 85, 1);
     background-color: #ffffff;
-    position: relative;
-    width: 1440px;
-    height: 2593px;
-
 }
+.logo{
+    color:#4D5AE5;
+}
+
+.logo-studio{
+    color: #2E2F42;
+}
+
+}/*колір основного тексту*/
+  color:#2E2F42;
+
+
+  /*колір другого тексту*/
+  rgba(67, 68, 85, 1)
+  color: #434455;
+  #E7E9FC
+
+
+  /*білий*/ color:#ffffff;
+
+  /*акцент */#4D5AE5;
+
+
 
 
 
