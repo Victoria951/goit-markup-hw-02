@@ -10,6 +10,9 @@ body{
 .logo-studio{
     color: #2E2F42;
 }
+.list{
+    list-style: none;
+}
 
 }/*колір основного тексту
   color:#2E2F42;*/
