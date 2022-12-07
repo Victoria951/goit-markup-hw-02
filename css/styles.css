@@ -7,71 +7,105 @@
 body{
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
-}
-.logo{
-    color:var(--accent-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.logo-studio{
+/*logo*/
+.logo{
+    color:var(--accent-color);
+    font-family: Raleway, cursive;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+}
+
+.logo .accent{
     color:var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
 }
 .logo-studio:hover
 .logo-studio:focus{
-    color:var(--primary-text-color);    
+    color:var(--primary-text-color); /*який колір?*/   
 }
 .logo:hover
 .logo:focus{
     color:var(--primary-text-color);
+
 }
 
 /*site-nav*/
 
 .site-nav .link{
     color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .site-nav .link:hover
 .site-nav .link:focus{
     color:var(--primary-text-color); 
 }
-.site-nav .link.current{
+.site-nav .link.current{    /*який колір?*/
     color:var(--accent-color);
 }
 /*out-nav*/
-.aut-nav{
+.aut-nav .link{
     color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /*hero*/
 .hero-title{
-    ;
-}
+   color:var(--primary-white-color);
+   font-weight: 600;
+   font-size: 56px;
+   line-height:1.07;
+   text-align: center;
 
-/*section*/
-.section-title{
-    color:var(--title-text-color);
 }
-
 /*button*/
 
 .button{
     color:var(--primary-white-color);
     background-color:var(--accent-color); 
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+
+}
+/*section*/
+.fueture-list .title{
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+ 
+
+/*work*/
+.work-list .title {
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
 }
 
-  
 
-  /*акцент #4D5AE5;*/
-
-
-
-
-
-
-/*header*/
+/*team*/
 
 
 
