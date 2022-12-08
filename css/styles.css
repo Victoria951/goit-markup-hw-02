@@ -59,7 +59,7 @@ body{
 .site-nav .link:focus{
     color:var(--primary-text-color); 
 }
-.site-nav .link.current{    /*який колір?*/
+.site-nav .link.current{    
     color:var(--accent-color);
 }
 /*out-nav*/
@@ -90,6 +90,7 @@ body{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
 }
 /*section*/
