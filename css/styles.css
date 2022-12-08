@@ -3,6 +3,7 @@
     --title-text-color:#2E2F42;
     --accent-color:#4D5AE5;
     --primary-white-color: #ffffff;
+    --primary-light-color: #E7E9FC;
 }
 body{
     color: var(--primary-text-color);
@@ -14,12 +15,13 @@ body{
 }
 
 /*logo*/
-.logo{
+.logo {
     color:var(--accent-color);
     font-family: Raleway, cursive;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo .accent{
@@ -28,6 +30,7 @@ body{
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+    
 }
 .list{
     list-style: none;
@@ -49,6 +52,7 @@ body{
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .site-nav .link:hover
@@ -63,11 +67,13 @@ body{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 /*hero*/
 .hero-title{
    color:var(--primary-white-color);
+   background-color: var(--primary-light-color);
    font-weight: 600;
    font-size: 56px;
    line-height:1.07;
@@ -93,6 +99,19 @@ body{
     font-size: 20px;
     line-height: 1.2;
 }
+ /*.fueture-list .text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px
+
+letter-spacing: 0.02em;
+подивитися до всіх р і заголовків 
+
+color: #434455;*/ 
+
+
  
 
 /*work*/
@@ -107,11 +126,24 @@ body{
 
 /*team*/
 
+.team-list .title{
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.team-list .text{
+    color:var(--primary-text-color);
+}
 
 
 
+.footer-text{
+    color: var(--primary-light-color);
+}
 
-/*main*/
+
 
 
 
