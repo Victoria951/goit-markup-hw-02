@@ -4,6 +4,7 @@
     --accent-color:#4D5AE5;
     --primary-white-color: #ffffff;
     --primary-light-color: #E7E9FC;
+    --primary-cloud-color:#F4F4FD;
 }
 body{
     color: var(--primary-text-color);
@@ -16,7 +17,7 @@ body{
 
 /*logo*/
 .logo {
-    color:var(--accent-color);
+    color:var(--title-text-color);
     font-family: Raleway, cursive;
     font-size: 18px;
     line-height: 1.33;
@@ -24,25 +25,34 @@ body{
     text-decoration: none;
 }
 
+.logo:hover,
+.logo:focus{
+    color:var(--primary-text-color);
+}
+
+.logo:active{
+    color: var(--accent-color);
+}
+
 .logo .accent{
-    color:var(--title-text-color);
+    color:var(--accent-color);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.33;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;   
 }
+
+.logo .accent:hover,
+.logo .accent:focus{
+    color: var(--primary-text-color);
+}
+
+.logo .accent{
+    color: var(--accent-color);
+}
+
 .list{
     list-style: none;
-}
-.logo-studio:hover
-.logo-studio:focus{
-    color:var(--primary-text-color); /*який колір?*/   
-}
-.logo:hover
-.logo:focus{
-    color:var(--primary-text-color);
-
 }
 
 /*site-nav*/
@@ -55,36 +65,53 @@ body{
     text-decoration: none;
 }
 
-.site-nav .link:hover
+.site-nav .link:hover,
 .site-nav .link:focus{
     color:var(--primary-text-color); 
 }
-.site-nav .link.current{    
-    color:var(--accent-color);
+
+.site-nav .link:active{
+   color: var(--accent-color);
 }
+
+/* /.site-nav .link.current{     
+    color:var(--primary-text-color);
+}*/
+
+
 /*out-nav*/
 .aut-nav .link{
-    color: var(--primary-text-color);
+    color:var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
 }
 
-/*hero*/
+.aut-nav .link:hover,
+.aut-nav .link:focus{
+    color:var(--title-text-color); 
+}
+
+.aut-nav .link:active{
+    color: var(--accent-color);
+}
+
+ /*hero*/
 .hero-title{
-   color:var(--primary-white-color);
+   color: var(--primary-white-color);
    background-color: var(--primary-light-color);
    font-weight: 600;
    font-size: 56px;
-   line-height:1.07;
+   line-height: 1.07;
    text-align: center;
 
 }
-/*button*/
 
-.button{
-    color:var(--primary-white-color);
-    background-color:var(--accent-color); 
+ /*button*/
+
+.button{ 
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
     font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -93,30 +120,53 @@ body{
     cursor: pointer;
 
 }
-/*section*/
-.fueture-list .title{
+.button.primary{
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+
+}
+
+.button.primary:hover,
+.button.primary:focus{
+    color:var(--accent-color);
+
+}
+.button.primary:active{
+    color:var(--accent-color);
+}
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-cloud-color);
+       
+}
+
+.button.secondary:hover,
+.button.secondary:focus{
+    color:var(--primary-cloud-color);
+}
+
+.button.secondary:active{
+    color: var(--primary-cloud-color);
+}
+
+/*section fuetere+team*/
+.fueture-list .title, 
+.team-list .title{
     color:var(--title-text-color);
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
 }
- /*.fueture-list .text{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px
+ .fueture-list .text{
+   color: var(--primary-text-color);
+   font-size: 16px;
+   line-height: 2.5;
+ }
 
-letter-spacing: 0.02em;
-подивитися до всіх р і заголовків 
-
-color: #434455;*/ 
-
-
- 
 
 /*work*/
-.work-list .title {
+
+.work-list .title{
     color:var(--title-text-color);
     font-weight: 600;
     font-size: 36px;
@@ -124,20 +174,21 @@ color: #434455;*/
     text-align: center;
 }
 
-
 /*team*/
 
-.team-list .title{
+.team .team-title{
     color:var(--title-text-color);
     font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+
 }
+
 
 .team-list .text{
     color:var(--primary-text-color);
 }
-
 
 
 .footer-text{
@@ -145,6 +196,24 @@ color: #434455;*/
 }
 
 
+/*portfolio*/
+
+.project-card .title{
+color: var(--title-text-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+
+}
+.project-card .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+.project-card{
+    text-decoration: none;
+}
 
 
 
@@ -153,7 +222,3 @@ color: #434455;*/
 
 
 
-
-
-
-/*footer*/
